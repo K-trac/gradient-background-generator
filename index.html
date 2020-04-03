@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+	<h1>Background Generator</h1>
+
+<!-- in the input add oninput="setGradient()" to add JavaScript to html. Only allows one function to be added so not expandable. onclick or oninput. -->
+ 
+	<div class="container">
+		<div>
+			<p>Gradient to Right</p>
+			<input class="color1" type="color" value="#ffffff">
+			<input class="color2" type="color"  value="#000000">
+			<br><button id="ranCol">Random Color!</button>
+		</div>
+		<div>
+			<p>Gradient to Bottom</p>
+			<input class="color3" type="color" value="#ffffff">
+			<input class="color4" type="color" value="#000000"> 
+			<br><button id="vertical">Random Color!</button>
+		</div>
+		<div>
+			<p>Diagonal Gradient</p>
+			<input class="color5" type="color" name="color1" value="#ffffff">
+			<input class="color6" type="color" name="color2" value="#000000"> 
+			<br><button id="diag">Random Color!</button>
+		</div>
+		<div>
+			<p>Elipse Gradient</p>
+			<input class="color7" type="color" name="color1" value="#ffffff">
+			<input class="color8" type="color" name="color2" value="#000000"> 
+			<br><button id="elipse">Random Color!</button>
+		</div>
+		<div>
+			<p>Circle Gradient</p>
+			<input class="color9" type="color" name="color1" value="#ffffff">
+			<input class="color10" type="color" name="color2" value="#000000"> 
+			<br><button id="circle">Random Color!</button>
+		</div>
+	</div>
+	
+	<h3>Current CSS Background</h3>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
